@@ -1,0 +1,12 @@
+diff --git a/configure b/configure
+index f72f8ef..33379f9 100755
+--- a/configure
++++ b/configure
+@@ -13237,7 +13237,7 @@ $as_echo "#define HAVE_CODEMEM_MALLOC 1" >>confdefs.h
+ $as_echo "#define HAVE_CODEMEM_VIRTUALALLOC 1" >>confdefs.h
+
+     ;;
+-  linux*|darwin*|solaris*|netbsd*|freebsd*|openbsd*|kfreebsd*|dragonfly*|gnu*)
++  linux*|darwin*|solaris*|netbsd*|freebsd*|openbsd*|kfreebsd*|nacl|dragonfly*|gnu*)
+
+ $as_echo "#define HAVE_CODEMEM_MMAP 1" >>confdefs.h
